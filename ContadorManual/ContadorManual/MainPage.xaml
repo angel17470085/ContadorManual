@@ -7,7 +7,7 @@
         <Frame Margin="16" CornerRadius="0" BorderColor="LightGray">
             <StackLayout>
                 <Label Text="Conteo:" FontSize="Large" TextColor="Black"/>
-                <Label Text="0" x:Name="ConteoLabel" TextColor="Black" Margin="16" FontSize="42" HorizontalOptions="Center"/>
+                <Label Text="{Binding Conteo}" x:Name="ConteoLabel" TextColor="Black" Margin="16" FontSize="42" HorizontalOptions="Center"/>
                 
             </StackLayout>
         </Frame>
